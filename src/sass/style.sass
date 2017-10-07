@@ -1,0 +1,30 @@
+@import '../libs/normalize-css/normalize'
+@import '../libs/bootstrap4-grid-only.min'
+@import './fonts'
+
+//variable
+$body-bg-color: #fff
+$body-text-color: #000
+$footer-bg-color: #ccc
+
+html,
+body
+	height: 100%
+
+body
+	display: flex //для футера прижатого к низу сайта
+	flex-direction: column //для футера прижатого к низу сайта
+	font-family: raleway, sans-serif
+	font-size: 16px
+	line-height: 1.65
+	min-width: 320px
+	overflow-x: hidden
+
+.page-wrap
+	flex: 1 0 auto //для футера прижатого к низу сайта
+
+.site-footer
+	background-color: $footer-bg-color
+
+// Пользовательские стили
+
